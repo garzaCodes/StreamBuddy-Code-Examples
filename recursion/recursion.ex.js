@@ -10,6 +10,7 @@ function processRecords() {
     console.log(finished, "All Execution Contexts Closed");
     return;
   }
+
   rounds++;
 
   console.log(`Execution Context ${rounds} Created: `, scope);
