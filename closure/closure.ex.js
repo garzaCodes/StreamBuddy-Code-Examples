@@ -79,3 +79,20 @@ function openBank(name) {
     }
   }
 }
+
+
+
+const USAA = openBank('USAA');
+const Chase = openBank('Chase');
+
+const myUSAAAcount = USAA.openAccount('Marc Garza', 100);
+const myChaseAccount = Chase.openAccount('Marc Garza', 400);
+
+myUSAAAcount.deposit(20000);
+
+
+myUSAAAcount.checkBalance();
+myChaseAccount.checkBalance();
+
+
+
