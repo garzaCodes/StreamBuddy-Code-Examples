@@ -1,6 +1,6 @@
 const scope = { message: "Not finished yet", finished: "Finished..." };
 const maxRounds = 10;
-let rounds = 0;
+let rounds = 1;
 
 function processRecords() {
   const message = "Not finished yet";
